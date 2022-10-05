@@ -1,11 +1,11 @@
 from entrenos import *
 
-registros = lee_entrenos("data/entrenos.csv")
+datos = lee_entrenos("data/entrenos.csv")
 
-print(f"Leídos {len(registros)} registros.")
+print(f"Leídos {len(datos)} registros.")
 
-print("\nMostrando los tres primeros registros:")
-print(registros[:3])
+print("\nMostrando los primeros 3 registros:")
+print(datos[:3])
 
-print("\nMostrando los tres últimos registros:")
-print(registros[-3:])
+print("\nMostrando los últimos 3 registros:")
+print(datos[-3:])
